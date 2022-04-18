@@ -17,7 +17,7 @@ $ ./main
 
 While main file is running, add nodes in the distributed system with command
 
-$ ./node <name>
+$ ./node name_of_node
   
 A minimum of 4 nodes must be added before the distributed system is able to run. After 4 nodes are added, we can simulate transactions by sending coins between different nodes and see which nodes gets to mine the block.
   
