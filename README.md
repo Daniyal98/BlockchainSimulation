@@ -8,16 +8,17 @@ This project simulates a Blockchain where we can see how a blockchain works in a
 
 Clone this repository inside your GOPATH in the src folder and then run
 
-$ go build main/main.go
-$ go build node/node.go
+`go build main/main.go`
+
+`go build node/node.go`
 
 After that run the main file
 
-$ ./main
+`./main`
 
 While main file is running, add nodes in the distributed system with command
 
-$ ./node name_of_node
+`./node name_of_node`
   
 A minimum of 4 nodes must be added before the distributed system is able to run. After 4 nodes are added, we can simulate transactions by sending coins between different nodes and see which nodes gets to mine the block.
   
